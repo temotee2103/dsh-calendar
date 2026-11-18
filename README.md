@@ -32,7 +32,7 @@
 ### 桌面 / 任意 DSH 主机
 
 ```sh
-git clone https://github.com/<you>/dsh-calendar.git
+git clone https://github.com/temotee2103/dsh-calendar.git
 dsh plugin --profile web add "$(pwd)/dsh-calendar"
 ```
 
@@ -44,7 +44,7 @@ dsh plugin --profile web add "$(pwd)/dsh-calendar"
 
 ```sh
 mkdir -p /root/.dsh/dsh-go/plugins
-git clone https://github.com/<you>/dsh-calendar.git /root/.dsh/dsh-go/plugins/dsh-calendar
+git clone https://github.com/temotee2103/dsh-calendar.git /root/.dsh/dsh-go/plugins/dsh-calendar
 dsh plugin --profile web add /root/.dsh/dsh-go/plugins/dsh-calendar
 ```
 
