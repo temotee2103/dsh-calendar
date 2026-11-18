@@ -1,0 +1,44 @@
+{
+  "name": "@local/dsh-calendar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  },
+  "description": "Chinese almanac (lunar date, sexagenary day, Malaysian federal holidays) with Google/Lark calendar sync, a day plan and a BaZi daily reading.",
+  "keywords": [
+    "dsh-plugin",
+    "calendar",
+    "almanac",
+    "lunar",
+    "bazi",
+    "malaysia"
+  ],
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "client.js",
+    "host/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "LICENSE"
+  ]
+}
